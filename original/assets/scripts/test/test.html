@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>NZTE Self Service Javascript Tests</title>
+    <link rel="stylesheet" href="css/mocha.css" type="text/css" charset="utf-8" />
+</head>
+<body>
+
+    <!-- Required for browser reporter -->
+    <div id="mocha"></div>
+
+    <!-- Mocha and Sinon -->
+    <script src="js/mocha.js"></script>
+    <script src="js/sinon.js"></script>
+	<!-- RequireJS + Common Config -->
+	<script src="../src/lib/require.js"></script>
+    <script src="../src/paths.js"></script>
+    <script src="../src/common.js"></script>
+    <script src="js/config.js"></script>
+	<!-- Spec Helpers -->
+    <script src="spec/helpers/SpecHelper.js"></script>
+
+	<!-- Include Specs to test -->
+    <script>
+		mocha.setup({
+			ui: 'bdd',
+			ignoreLeaks: true
+		});
+        require([
+			'test-common',
+			//Specs
+			'spec/questionnaire/QuestionnaireStateSpec',
+			'spec/questionnaire/QuestionnaireFlowSpec',
+			'spec/questionnaire/QuestionnaireControlsSpec',
+			'spec/questionnaire/QuestionnaireMenuSpec'
+			],
+			function(){
+				mocha.run();
+			});
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,2222 @@
+[
+	{
+		"id": "global",
+		"name": "Global",
+		"coordinates": {
+			"lat": -56.94,
+			"lon": 20.92
+		},
+		"zoom": {
+			"level": 1.5,
+			"translateX": -20,
+			"translateY": 0
+		},
+		"range": {
+			"rangeMax": 15,
+			"innerRadius": 5
+		},
+		"articles": {
+			"marketResearch": 25,
+			"newsFeatures": 7,
+			"sectors": [
+				{
+					"title": "Agribusiness",
+					"marketResearch": 2,
+					"newsFeatures": 4
+				},
+				{
+					"title": "High Value Manufacturing",
+					"marketResearch": 5,
+					"newsFeatures": 4
+				},
+				{
+					"title": "Biotechnology",
+					"marketResearch": 8,
+					"newsFeatures": 4
+				}
+			]
+		},
+		"mediaLinks": [
+			{
+				"title": "Kiwi company BIMStop secures investment to continue US expansion",
+				"url": "http://www.nzte.govt.nz/en/news-and-media/kiwi-company-bimstop-secures-investment-to-continue-us-expansion/"
+			},
+			{
+				"title": "New Zealand tech sector grows by 16.5 percent",
+				"url": "http://www.nzte.govt.nz/en/news-and-media/new-zealand-tech-sector-grows-by-165-percent/"
+			},
+			{
+				"title": "US overtakes UK as Second-Largest Export Market for New Zealand Wines",
+				"url": "http://www.nzte.govt.nz/en/news-and-media/us-overtakes-uk-as-second-largest-export-market-for-new-zealand-wines/"
+			},
+			{
+				"title": "Kiwi company Vend is “right up there with the coolest kids in Silicon Valley”",
+				"url": "http://www.nzte.govt.nz/en/news-and-media/kiwi-company-vend-is-“right-up-there-with-the-coolest-kids-in-silicon-valley”/"
+			},
+			{
+				"title": "New Zealand Accounting Firm Xero Expanding to Denver, CO",
+				"url": "http://www.nzte.govt.nz/en/news-and-media/new-zealand-accounting-firm-xero-expanding-to-denver-co/"
+			}
+		],
+		"countries": [
+			{
+				"id": "global-country",
+				"name": "Global",
+				"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/canada/",
+				"coordinates": {
+					"lat": 45.58,
+					"lon": 56.95
+				},
+				"articles": {
+					"marketResearch": 15,
+					"newsFeatures": 12,
+					"sectors": [
+						{
+							"title": "Agribusiness",
+							"marketResearch": 2,
+							"newsFeatures": 4
+						},
+						{
+							"title": "High Value Manufacturing",
+							"marketResearch": 5,
+							"newsFeatures": 4
+						},
+						{
+							"title": "Biotechnology",
+							"marketResearch": 8,
+							"newsFeatures": 4
+						}
+					]
+				},
+				"sectors": [
+					{
+						"title": "Agribusiness",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Health",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Food & Beverage",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					}
+				]
+			}
+		]
+	}, {
+		"id": "australia-pacific",
+		"name": "Australia-Pacific",
+		"coordinates": {
+			"lat": -25.27,
+			"lon": 133.77
+		},
+		"range": {
+			"rangeMax": 10,
+			"innerRadius": 5
+		},
+		"zoom": {
+			"level": 3.2,
+			"translateX": -1100,
+			"translateY": -720
+		},
+		"articles": {
+			"marketResearch": 25,
+			"newsFeatures": 7,
+			"sectors": [
+				{
+					"title": "Agribusiness",
+					"marketResearch": 7,
+					"newsFeatures": 4
+				},
+				{
+					"title": "Aviation",
+					"marketResearch": 10,
+					"newsFeatures": 2
+				},
+				{
+					"title": "Food & Beverage",
+					"marketResearch": 8,
+					"newsFeatures": 1
+				}
+			]
+		},
+		"mediaLinks": [
+			{
+				"title": "Kiwi company BIMStop secures investment to continue US expansion",
+				"url": "http://www.nzte.govt.nz/en/news-and-media/kiwi-company-bimstop-secures-investment-to-continue-us-expansion/"
+			},
+			{
+				"title": "New Zealand tech sector grows by 16.5 percent",
+				"url": "http://www.nzte.govt.nz/en/news-and-media/new-zealand-tech-sector-grows-by-165-percent/"
+			},
+			{
+				"title": "US overtakes UK as Second-Largest Export Market for New Zealand Wines",
+				"url": "http://www.nzte.govt.nz/en/news-and-media/us-overtakes-uk-as-second-largest-export-market-for-new-zealand-wines/"
+			},
+			{
+				"title": "Kiwi company Vend is “right up there with the coolest kids in Silicon Valley”",
+				"url": "http://www.nzte.govt.nz/en/news-and-media/kiwi-company-vend-is-“right-up-there-with-the-coolest-kids-in-silicon-valley”/"
+			},
+			{
+				"title": "New Zealand Accounting Firm Xero Expanding to Denver, CO",
+				"url": "http://www.nzte.govt.nz/en/news-and-media/new-zealand-accounting-firm-xero-expanding-to-denver-co/"
+			}
+		],
+		"countries": [
+			{
+				"id": "australia",
+				"name": "Australia",
+				"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/canada/",
+				"coordinates": {
+					"lat": -25.27,
+					"lon": 133.77
+				},
+				"articles": {
+					"marketResearch": 15,
+					"newsFeatures": 12,
+					"sectors": [
+						{
+							"title": "Agribusiness",
+							"marketResearch": 2,
+							"newsFeatures": 4
+						},
+						{
+							"title": "High Value Manufacturing",
+							"marketResearch": 5,
+							"newsFeatures": 4
+						},
+						{
+							"title": "Biotechnology",
+							"marketResearch": 8,
+							"newsFeatures": 4
+						}
+					]
+				},
+				"sectors": [
+					{
+						"title": "Agribusiness",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Health",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Food & Beverage",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					}
+				]
+			}, {
+				"id": "pacific-islands",
+				"name": "Pacific Islands",
+				"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/canada/",
+				"coordinates": {
+					"lat": -19.26,
+					"lon": -169.91
+				},
+				"articles": {
+					"marketResearch": 15,
+					"newsFeatures": 12,
+					"sectors": [
+						{
+							"title": "Agribusiness",
+							"marketResearch": 2,
+							"newsFeatures": 4
+						},
+						{
+							"name": "High Value Manufacturing",
+							"marketResearch": 5,
+							"newsFeatures": 4
+						},
+						{
+							"name": "Biotechnology",
+							"marketResearch": 8,
+							"newsFeatures": 4
+						}
+					]
+				},
+				"sectors": [
+					{
+						"title": "Agribusiness",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Health",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Food & Beverage",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					}
+				]
+			}
+		]
+	}, {
+		"id": "india-middle-east-and-africa",
+		"name": "India, Middle East & Africa",
+		"coordinates": {
+			"lat": 10,
+			"lon": 21.44
+		},
+		"range": {
+			"rangeMax": 4,
+			"innerRadius": 3
+		},
+		"zoom": {
+			"level": 2.3,
+			"translateX": 10,
+			"translateY": -300
+		},
+		"articles": {
+			"marketResearch": 25,
+			"newsFeatures": 7,
+			"sectors": [
+				{
+					"name": "Agribusiness",
+					"marketResearch": 7,
+					"newsFeatures": 4
+				},
+				{
+					"name": "Aviation",
+					"marketResearch": 10,
+					"newsFeatures": 2
+				},
+				{
+					"name": "Food & Beverage",
+					"marketResearch": 8,
+					"newsFeatures": 1
+				}
+			]
+		},
+		"mediaLinks": [
+			{
+				"title": "Kiwi company BIMStop secures investment to continue US expansion",
+				"url": "http://www.nzte.govt.nz/en/news-and-media/kiwi-company-bimstop-secures-investment-to-continue-us-expansion/"
+			},
+			{
+				"title": "New Zealand tech sector grows by 16.5 percent",
+				"url": "http://www.nzte.govt.nz/en/news-and-media/new-zealand-tech-sector-grows-by-165-percent/"
+			},
+			{
+				"title": "US overtakes UK as Second-Largest Export Market for New Zealand Wines",
+				"url": "http://www.nzte.govt.nz/en/news-and-media/us-overtakes-uk-as-second-largest-export-market-for-new-zealand-wines/"
+			},
+			{
+				"title": "Kiwi company Vend is “right up there with the coolest kids in Silicon Valley”",
+				"url": "http://www.nzte.govt.nz/en/news-and-media/kiwi-company-vend-is-“right-up-there-with-the-coolest-kids-in-silicon-valley”/"
+			},
+			{
+				"title": "New Zealand Accounting Firm Xero Expanding to Denver, CO",
+				"url": "http://www.nzte.govt.nz/en/news-and-media/new-zealand-accounting-firm-xero-expanding-to-denver-co/"
+			}
+		],
+		"countries": [
+			{
+				"id": "egypt",
+				"name": "Egypt",
+				"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/canada/",
+				"coordinates": {
+					"lat": 25.56,
+					"lon": 29.53
+				},
+				"articles": {
+					"marketResearch": 15,
+					"newsFeatures": 12,
+					"sectors": [
+						{
+							"name": "Agribusiness",
+							"marketResearch": 2,
+							"newsFeatures": 4
+						},
+						{
+							"name": "High Value Manufacturing",
+							"marketResearch": 5,
+							"newsFeatures": 4
+						},
+						{
+							"name": "Biotechnology",
+							"marketResearch": 8,
+							"newsFeatures": 4
+						}
+					]
+				},
+				"sectors": [
+					{
+						"title": "Agribusiness",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Health",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Food & Beverage",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					}
+				]
+			}, {
+				"id": "india",
+				"name": "India",
+				"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/canada/",
+				"coordinates": {
+					"lat": 21.65,
+					"lon": 78.00
+				},
+				"articles": {
+					"marketResearch": 15,
+					"newsFeatures": 12,
+					"sectors": [
+						{
+							"name": "Agribusiness",
+							"marketResearch": 2,
+							"newsFeatures": 4
+						},
+						{
+							"name": "High Value Manufacturing",
+							"marketResearch": 5,
+							"newsFeatures": 4
+						},
+						{
+							"name": "Biotechnology",
+							"marketResearch": 8,
+							"newsFeatures": 4
+						}
+					]
+				},
+				"sectors": [
+					{
+						"title": "Agribusiness",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Health",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Food & Beverage",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					}
+				]
+			}, {
+				"id": "iran",
+				"name": "Iran",
+				"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/canada/",
+				"coordinates": {
+					"lat": 31.98,
+					"lon": 54.36
+				},
+				"articles": {
+					"marketResearch": 15,
+					"newsFeatures": 12,
+					"sectors": [
+						{
+							"name": "Agribusiness",
+							"marketResearch": 2,
+							"newsFeatures": 4
+						},
+						{
+							"name": "High Value Manufacturing",
+							"marketResearch": 5,
+							"newsFeatures": 4
+						},
+						{
+							"name": "Biotechnology",
+							"marketResearch": 8,
+							"newsFeatures": 4
+						}
+					]
+				},
+				"sectors": [
+					{
+						"title": "Agribusiness",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Health",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Food & Beverage",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					}
+				]
+			}, {
+				"id": "oman",
+				"name": "Oman",
+				"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/canada/",
+				"coordinates": {
+					"lat": 21.90,
+					"lon": 57.39
+				},
+				"articles": {
+					"marketResearch": 15,
+					"newsFeatures": 12,
+					"sectors": [
+						{
+							"name": "Agribusiness",
+							"marketResearch": 2,
+							"newsFeatures": 4
+						},
+						{
+							"name": "High Value Manufacturing",
+							"marketResearch": 5,
+							"newsFeatures": 4
+						},
+						{
+							"name": "Biotechnology",
+							"marketResearch": 8,
+							"newsFeatures": 4
+						}
+					]
+				},
+				"sectors": [
+					{
+						"title": "Agribusiness",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Health",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Food & Beverage",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					}
+				]
+			}, {
+				"id": "pakistan",
+				"name": "Pakistan",
+				"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/canada/",
+				"coordinates": {
+					"lat": 29.95,
+					"lon": 69.43
+				},
+				"articles": {
+					"marketResearch": 15,
+					"newsFeatures": 12,
+					"sectors": [
+						{
+							"name": "Agribusiness",
+							"marketResearch": 2,
+							"newsFeatures": 4
+						},
+						{
+							"name": "High Value Manufacturing",
+							"marketResearch": 5,
+							"newsFeatures": 4
+						},
+						{
+							"name": "Biotechnology",
+							"marketResearch": 8,
+							"newsFeatures": 4
+						}
+					]
+				},
+				"sectors": [
+					{
+						"title": "Agribusiness",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Health",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Food & Beverage",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					}
+				]
+			}, {
+				"id": "saudi-arabia",
+				"name": "Saudi Arabia",
+				"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/canada/",
+				"coordinates": {
+					"lat": 23.88,
+					"lon": 45.07
+				},
+				"articles": {
+					"marketResearch": 15,
+					"newsFeatures": 12,
+					"sectors": [
+						{
+							"name": "Agribusiness",
+							"marketResearch": 2,
+							"newsFeatures": 4
+						},
+						{
+							"name": "High Value Manufacturing",
+							"marketResearch": 5,
+							"newsFeatures": 4
+						},
+						{
+							"name": "Biotechnology",
+							"marketResearch": 8,
+							"newsFeatures": 4
+						}
+					]
+				},
+				"sectors": [
+					{
+						"title": "Agribusiness",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Health",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Food & Beverage",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					}
+				]
+			}, {
+				"id": "south-africa",
+				"name": "South Africa",
+				"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/canada/",
+				"coordinates": {
+					"lat": -30.93,
+					"lon": 24.34
+				},
+				"articles": {
+					"marketResearch": 15,
+					"newsFeatures": 12,
+					"sectors": [
+						{
+							"name": "Agribusiness",
+							"marketResearch": 2,
+							"newsFeatures": 4
+						},
+						{
+							"name": "High Value Manufacturing",
+							"marketResearch": 5,
+							"newsFeatures": 4
+						},
+						{
+							"name": "Biotechnology",
+							"marketResearch": 8,
+							"newsFeatures": 4
+						}
+					]
+				},
+				"sectors": [
+					{
+						"title": "Agribusiness",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Health",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Food & Beverage",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					}
+				]
+			}, {
+				"id": "united-arab-emirates",
+				"name": "United Arab Emirate (UAE)",
+				"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/canada/",
+				"coordinates": {
+					"lat": 23.51,
+					"lon": 54.38
+				},
+				"articles": {
+					"marketResearch": 15,
+					"newsFeatures": 12,
+					"sectors": [
+						{
+							"name": "Agribusiness",
+							"marketResearch": 2,
+							"newsFeatures": 4
+						},
+						{
+							"name": "High Value Manufacturing",
+							"marketResearch": 5,
+							"newsFeatures": 4
+						},
+						{
+							"name": "Biotechnology",
+							"marketResearch": 8,
+							"newsFeatures": 4
+						}
+					]
+				},
+				"sectors": [
+					{
+						"title": "Agribusiness",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Health",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Food & Beverage",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					}
+				]
+			}, {
+				"id": "sri-lanka",
+				"name": "Sri Lanka",
+				"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/canada/",
+				"coordinates": {
+					"lat": 7.05,
+					"lon": 80.9
+				},
+				"articles": {
+					"marketResearch": 15,
+					"newsFeatures": 12,
+					"sectors": [
+						{
+							"name": "Agribusiness",
+							"marketResearch": 2,
+							"newsFeatures": 4
+						},
+						{
+							"name": "High Value Manufacturing",
+							"marketResearch": 5,
+							"newsFeatures": 4
+						},
+						{
+							"name": "Biotechnology",
+							"marketResearch": 8,
+							"newsFeatures": 4
+						}
+					]
+				},
+				"sectors": [
+					{
+						"title": "Agribusiness",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Health",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Food & Beverage",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					}
+				]
+			}
+		]
+	}, {
+		"id": "north-america",
+		"name": "North America",
+		"coordinates": {
+			"lat": 48.22,
+			"lon": -89.14
+		},
+		"range": {
+			"rangeMax": 10,
+			"innerRadius": 5
+		},
+		"zoom": {
+			"level": 2.4,
+			"translateX": -1340,
+			"translateY": -50
+		},
+		"articles": {
+			"marketResearch": 15,
+			"newsFeatures": 12,
+			"sectors": [
+				{
+					"name": "Agribusiness",
+					"marketResearch": 2,
+					"newsFeatures": 4
+				},
+				{
+					"name": "High Value Manufacturing",
+					"marketResearch": 5,
+					"newsFeatures": 4
+				},
+				{
+					"name": "Biotechnology",
+					"marketResearch": 6,
+					"newsFeatures": 4
+				}
+			]
+		},
+		"mediaLinks": [
+			{
+				"title": "Kiwi company BIMStop secures investment to continue US expansion",
+				"url": "http://www.nzte.govt.nz/en/news-and-media/kiwi-company-bimstop-secures-investment-to-continue-us-expansion/"
+			},
+			{
+				"title": "New Zealand tech sector grows by 16.5 percent",
+				"url": "http://www.nzte.govt.nz/en/news-and-media/new-zealand-tech-sector-grows-by-165-percent/"
+			},
+			{
+				"title": "US overtakes UK as Second-Largest Export Market for New Zealand Wines",
+				"url": "http://www.nzte.govt.nz/en/news-and-media/us-overtakes-uk-as-second-largest-export-market-for-new-zealand-wines/"
+			},
+			{
+				"title": "Kiwi company Vend is “right up there with the coolest kids in Silicon Valley”",
+				"url": "http://www.nzte.govt.nz/en/news-and-media/kiwi-company-vend-is-“right-up-there-with-the-coolest-kids-in-silicon-valley”/"
+			},
+			{
+				"title": "New Zealand Accounting Firm Xero Expanding to Denver, CO",
+				"url": "http://www.nzte.govt.nz/en/news-and-media/new-zealand-accounting-firm-xero-expanding-to-denver-co/"
+			}
+		],
+		"countries": [
+			{
+				"name": "Canada",
+				"id": "canada",
+				"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/canada/",
+				"coordinates": {
+					"lat": 57.44,
+					"lon": -97.51
+				},
+				"articles": {
+					"marketResearch": 5,
+					"newsFeatures": 4,
+					"sectors": [
+						{
+							"name": "Agribusiness",
+							"marketResearch": 2,
+							"newsFeatures": 1
+						},
+						{
+							"name": "Aviation",
+							"marketResearch": 2,
+							"newsFeatures": 2
+						},
+						{
+							"name": "Food & Beverage",
+							"marketResearch": 1,
+							"newsFeatures": 1
+						}
+					]
+				},
+				"mediaLinks": [
+					{
+						"title": "Kiwi company BIMStop secures investment to continue Canada expansion",
+						"url": "http://www.nzte.govt.nz/en/news-and-media/kiwi-company-bimstop-secures-investment-to-continue-us-expansion/"
+					},
+					{
+						"title": "New Zealand tech sector grows by 16.5 percent",
+						"url": "http://www.nzte.govt.nz/en/news-and-media/new-zealand-tech-sector-grows-by-165-percent/"
+					},
+					{
+						"title": "US overtakes UK as Second-Largest Export Market for New Zealand Wines",
+						"url": "http://www.nzte.govt.nz/en/news-and-media/us-overtakes-uk-as-second-largest-export-market-for-new-zealand-wines/"
+					},
+					{
+						"title": "Kiwi company Vend is “right up there with the coolest kids in Silicon Valley”",
+						"url": "http://www.nzte.govt.nz/en/news-and-media/kiwi-company-vend-is-“right-up-there-with-the-coolest-kids-in-silicon-valley”/"
+					},
+					{
+						"title": "New Zealand Accounting Firm Xero Expanding to Canada",
+						"url": "http://www.nzte.govt.nz/en/news-and-media/new-zealand-accounting-firm-xero-expanding-to-denver-co/"
+					}
+				],
+				"sectors": [
+					{
+						"title": "Agribusiness",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Health",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Food & Beverage",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					}
+				]
+
+			},
+			{
+				"name": "Mexico",
+				"id": "mexico",
+				"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/",
+				"coordinates": {
+					"lat": 21.26,
+					"lon": -99.8
+				},
+				"articles": {
+					"marketResearch": 4,
+					"newsFeatures": 6,
+					"sectors": [
+						{
+							"name": "Agribusiness",
+							"marketResearch": 4,
+							"newsFeatures": 2
+						},
+						{
+							"name": "Aviation",
+							"marketResearch": 0,
+							"newsFeatures": 3
+						},
+						{
+							"name": "Food & Beverage",
+							"marketResearch": 0,
+							"newsFeatures": 1
+						}
+					]
+				},
+				"sectors": [
+					{
+						"title": "Agribusiness",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					}
+				]
+			},
+			{
+				"name": "The United States Of America",
+				"id": "united-states",
+				"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/united-states/",
+				"coordinates": {
+					"lat": 40.48,
+					"lon": -96.40
+				},
+				"articles": {
+					"marketResearch": 7,
+					"newsFeatures": 6,
+					"sectors": [
+						{
+							"name": "Agribusiness",
+							"marketResearch": 1,
+							"newsFeatures": 0
+						},
+						{
+							"name": "Aviation",
+							"marketResearch": 3,
+							"newsFeatures": 2
+						},
+						{
+							"name": "Food & Beverage",
+							"marketResearch": 2,
+							"newsFeatures": 0
+						}
+					]
+				},
+				"sectors": [
+					{
+						"title": "Agribusiness",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Health",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Food & Beverage",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					}
+				]
+			}
+
+		]
+	}, {
+		"id": "south-america",
+		"name": "South America",
+		"coordinates": {
+			"lat": -3.6,
+			"lon": -68.01
+		},
+		"range": {
+			"rangeMax": 10,
+			"innerRadius": 5
+		},
+		"zoom": {
+			"level": 2.5,
+			"translateX": -1900,
+			"translateY": -500
+		},
+		"articles": {
+			"marketResearch": 13,
+			"newsFeatures": 2,
+			"sectors": [
+				{
+					"name": "Agribusiness",
+					"marketResearch": 0,
+					"newsFeatures": 2
+				},
+				{
+					"name": "Aviation",
+					"marketResearch": 2,
+					"newsFeatures": 0
+				},
+				{
+					"name": "Health",
+					"marketResearch": 11,
+					"newsFeatures": 0
+				}
+			]
+		},
+		"mediaLinks": [
+			{
+				"title": "MEDIA RELEASE: Finalists named in 2013 New Zealand International Business Awards",
+				"url": "http://www.nzte.govt.nz/en/news-and-media/finalists-named-in-2013-new-zealand-international-business-awards/"
+			},
+			{
+				"title": "NZTE goes mobile",
+				"url": "http://www.nzte.govt.nz/en/news-and-media/nzte-goes-mobile/"
+			},
+			{
+				"title": "Prime Minister John Key and trade delegation visit Latin America",
+				"url": "http://www.nzte.govt.nz/en/news-and-media/prime-minister-john-key-and-trade-delegation-visit-latin-america/"
+			},
+			{
+				"title": "Opportunities in South America",
+				"url": "http://www.nzte.govt.nz/en/news-and-media/opportunities-in-south-america/"
+			},
+			{
+				"title": "New Zealand best country in the world for business",
+				"url": "http://www.nzte.govt.nz/en/news-and-media/new-zealand-best-country-in-the-world-for-business/"
+			},
+			{
+				"title": "New Zealand best country in the world for business",
+				"url": "http://www.nzte.govt.nz/en/news-and-media/new-zealand-best-country-in-the-world-for-business/"
+			}
+
+		],
+		"countries": [
+			{
+				"id": "brazil",
+				"name": "Brazil",
+				"url": "http://www.nzte.govt.nz/en/export/export-markets/south-america/brazil/",
+				"coordinates": {
+					"lat": -10.11,
+					"lon": -48.20
+				},
+				"articles": {
+					"marketResearch": 7,
+					"newsFeatures": 3,
+					"sectors": [
+						{
+							"name": "Agribusiness",
+							"marketResearch": 7,
+							"newsFeatures": 6
+						},
+						{
+							"name": "Aviation",
+							"marketResearch": 7,
+							"newsFeatures": 6
+						},
+						{
+							"name": "Food & Beverage",
+							"marketResearch": 7,
+							"newsFeatures": 6
+						}
+					]
+				},
+				"sectors": [
+					{
+						"title": "Agribusiness",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Health",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Food & Beverage",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					}
+				]
+			},
+			{
+				"id": "argentina",
+				"name": "Argentina",
+				"url": "http://www.nzte.govt.nz/en/export/export-markets/south-america/argentina/",
+				"coordinates": {
+					"lat": -27.29,
+					"lon": -64.16
+				},
+				"articles": {
+					"marketResearch": 7,
+					"newsFeatures": 6,
+					"sectors": [
+						{
+							"name": "Agribusiness",
+							"marketResearch": 7,
+							"newsFeatures": 6
+						},
+						{
+							"name": "Aviation",
+							"marketResearch": 7,
+							"newsFeatures": 6
+						},
+						{
+							"name": "Food & Beverage",
+							"marketResearch": 7,
+							"newsFeatures": 6
+						}
+					]
+				},
+				"sectors": [
+					{
+						"title": "Agribusiness",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Health",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Food & Beverage",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					}
+				]
+			}, {
+				"id": "chile",
+				"name": "Chile",
+				"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/canada/",
+				"coordinates": {
+					"lat": -46.31,
+					"lon": -73.65
+				},
+				"articles": {
+					"marketResearch": 15,
+					"newsFeatures": 12,
+					"sectors": [
+						{
+							"name": "Agribusiness",
+							"marketResearch": 2,
+							"newsFeatures": 4
+						},
+						{
+							"name": "High Value Manufacturing",
+							"marketResearch": 5,
+							"newsFeatures": 4
+						},
+						{
+							"name": "Biotechnology",
+							"marketResearch": 8,
+							"newsFeatures": 4
+						}
+					]
+				},
+				"sectors": [
+					{
+						"title": "Agribusiness",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Health",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Food & Beverage",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					}
+				]
+			}, {
+				"id": "peru",
+				"name": "Peru",
+				"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/canada/",
+				"coordinates": {
+					"lat": -11.17,
+					"lon": -74.70
+				},
+				"articles": {
+					"marketResearch": 15,
+					"newsFeatures": 12,
+					"sectors": [
+						{
+							"name": "Agribusiness",
+							"marketResearch": 2,
+							"newsFeatures": 4
+						},
+						{
+							"name": "High Value Manufacturing",
+							"marketResearch": 5,
+							"newsFeatures": 4
+						},
+						{
+							"name": "Biotechnology",
+							"marketResearch": 8,
+							"newsFeatures": 4
+						}
+					]
+				},
+				"sectors": [
+					{
+						"title": "Agribusiness",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Health",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Food & Beverage",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					}
+				]
+			}, {
+				"id": "uruguay",
+				"name": "Uruguay",
+				"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/canada/",
+				"coordinates": {
+					"lat": -32.52,
+					"lon": -55.76
+				},
+				"articles": {
+					"marketResearch": 15,
+					"newsFeatures": 12,
+					"sectors": [
+						{
+							"name": "Agribusiness",
+							"marketResearch": 2,
+							"newsFeatures": 4
+						},
+						{
+							"name": "High Value Manufacturing",
+							"marketResearch": 5,
+							"newsFeatures": 4
+						},
+						{
+							"name": "Biotechnology",
+							"marketResearch": 8,
+							"newsFeatures": 4
+						}
+					]
+				},
+				"sectors": [
+					{
+						"title": "Agribusiness",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Health",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Food & Beverage",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					}
+				]
+			}, {
+				"id": "colombia",
+				"name": "Colombia",
+				"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/canada/",
+				"coordinates": {
+					"lat": 4.21,
+					"lon": -74.53
+				},
+				"articles": {
+					"marketResearch": 15,
+					"newsFeatures": 12,
+					"sectors": [
+						{
+							"name": "Agribusiness",
+							"marketResearch": 2,
+							"newsFeatures": 4
+						},
+						{
+							"name": "High Value Manufacturing",
+							"marketResearch": 5,
+							"newsFeatures": 4
+						},
+						{
+							"name": "Biotechnology",
+							"marketResearch": 8,
+							"newsFeatures": 4
+						}
+					]
+				},
+				"sectors": [
+					{
+						"title": "Agribusiness",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Health",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Food & Beverage",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					}
+				]
+			}
+		]
+	}, {
+		"id": "europe",
+		"name": "Europe",
+		"coordinates": {
+			"lat": 55.2,
+			"lon": 27.6
+		},
+		"range": {
+			"rangeMax": 3,
+			"innerRadius": 1.5
+		},
+		"zoom": {
+			"level": 7.5,
+			"translateX": -380,
+			"translateY": -630
+		},
+		"articles": {
+			"marketResearch": 35,
+			"newsFeatures": 24,
+			"sectors": [
+				{
+					"name": "Agribusiness",
+					"marketResearch": 5,
+					"newsFeatures": 4
+				},
+				{
+					"name": "Biotechnology",
+					"marketResearch": 7,
+					"newsFeatures": 10
+				},
+				{
+					"name": "Health",
+					"marketResearch": 2,
+					"newsFeatures": 2
+				},
+				{
+					"name": "Aviation",
+					"marketResearch": 7,
+					"newsFeatures": 6
+				},
+				{
+					"name": "High Value Manufacturing",
+					"marketResearch": 2,
+					"newsFeatures": 1
+				},
+				{
+					"name": "Services",
+					"marketResearch": 11,
+					"newsFeatures": 3
+				}
+			]
+		},
+		"mediaLinks": [
+			{
+				"title": "MEDIA RELEASE: Finalists named in 2013 New Zealand International Business Awards",
+				"url": "http://www.nzte.govt.nz/en/news-and-media/finalists-named-in-2013-new-zealand-international-business-awards/"
+			},
+			{
+				"title": "NZTE goes mobile",
+				"url": "http://www.nzte.govt.nz/en/news-and-media/nzte-goes-mobile/"
+			},
+			{
+				"title": "Prime Minister John Key and trade delegation visit Latin America",
+				"url": "http://www.nzte.govt.nz/en/news-and-media/prime-minister-john-key-and-trade-delegation-visit-latin-america/"
+			},
+			{
+				"title": "Opportunities in South America",
+				"url": "http://www.nzte.govt.nz/en/news-and-media/opportunities-in-south-america/"
+			},
+			{
+				"title": "New Zealand best country in the world for business",
+				"url": "http://www.nzte.govt.nz/en/news-and-media/new-zealand-best-country-in-the-world-for-business/"
+			},
+			{
+				"title": "New Zealand best country in the world for business",
+				"url": "http://www.nzte.govt.nz/en/news-and-media/new-zealand-best-country-in-the-world-for-business/"
+			}
+
+		],
+		"countries": [
+			{
+				"id": "belgium",
+				"name": "Belgium",
+				"url": "http://www.nzte.govt.nz/en/export/export-markets/europe/belgium",
+				"coordinates": {
+					"lat": 50.54,
+					"lon": 4.87
+				},
+				"articles": {
+					"marketResearch": 7,
+					"newsFeatures": 6,
+					"sectors": [
+						{
+							"name": "Agribusiness",
+							"marketResearch": 7,
+							"newsFeatures": 6
+						},
+						{
+							"name": "Aviation",
+							"marketResearch": 7,
+							"newsFeatures": 6
+						},
+						{
+							"name": "Food & Beverage",
+							"marketResearch": 7,
+							"newsFeatures": 6
+						}
+					]
+				},
+				"sectors": [
+					{
+						"title": "Agribusiness",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Health",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Food & Beverage",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					}
+				]
+			},{
+				"id": "france",
+				"name": "France",
+				"url": "http://www.nzte.govt.nz/en/export/export-markets/europe/france",
+				"coordinates": {
+					"lat": 46.52,
+					"lon": 2.32
+				},
+				"articles": {
+					"marketResearch": 7,
+					"newsFeatures": 6,
+					"sectors": [
+						{
+							"name": "Agribusiness",
+							"marketResearch": 7,
+							"newsFeatures": 6
+						},
+						{
+							"name": "Aviation",
+							"marketResearch": 7,
+							"newsFeatures": 6
+						},
+						{
+							"name": "Food & Beverage",
+							"marketResearch": 7,
+							"newsFeatures": 6
+						}
+					]
+				},
+				"sectors": [
+					{
+						"title": "Agribusiness",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Health",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Food & Beverage",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					}
+				]
+			},{
+				"id": "germany",
+				"name": "Germany",
+				"url": "http://www.nzte.govt.nz/en/export/export-markets/europe/germany",
+				"coordinates": {
+					"lat": 50.98,
+					"lon": 10.30
+				},
+				"articles": {
+					"marketResearch": 10,
+					"newsFeatures": 12,
+					"sectors": [
+						{
+							"name": "Agribusiness",
+							"marketResearch": 7,
+							"newsFeatures": 6
+						},
+						{
+							"name": "Aviation",
+							"marketResearch": 7,
+							"newsFeatures": 6
+						},
+						{
+							"name": "Food & Beverage",
+							"marketResearch": 7,
+							"newsFeatures": 6
+						}
+					]
+				},
+				"sectors": [
+					{
+						"title": "Agribusiness",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Health",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Food & Beverage",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					}
+				]
+			},{
+				"id": "ireland",
+				"name": "Ireland",
+				"url": "http://www.nzte.govt.nz/en/export/export-markets/europe/ireland",
+				"coordinates": {
+					"lat": 52.43,
+					"lon": -8.00
+				},
+				"articles": {
+					"marketResearch": 7,
+					"newsFeatures": 4,
+					"sectors": [
+						{
+							"name": "Agribusiness",
+							"marketResearch": 7,
+							"newsFeatures": 6
+						},
+						{
+							"name": "Aviation",
+							"marketResearch": 7,
+							"newsFeatures": 6
+						},
+						{
+							"name": "Food & Beverage",
+							"marketResearch": 7,
+							"newsFeatures": 6
+						}
+					]
+				},
+				"sectors": [
+					{
+						"title": "Agribusiness",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Health",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Food & Beverage",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					}
+				]
+			},{
+				"id": "italy",
+				"name": "Italy",
+				"url": "http://www.nzte.govt.nz/en/export/export-markets/europe/italy",
+				"coordinates": {
+					"lat": 42.95,
+					"lon": 12.24
+				},
+				"articles": {
+					"marketResearch": 2,
+					"newsFeatures": 8,
+					"sectors": [
+						{
+							"name": "Agribusiness",
+							"marketResearch": 7,
+							"newsFeatures": 6
+						},
+						{
+							"name": "Aviation",
+							"marketResearch": 7,
+							"newsFeatures": 6
+						},
+						{
+							"name": "Food & Beverage",
+							"marketResearch": 7,
+							"newsFeatures": 6
+						}
+					]
+				},
+				"sectors": [
+					{
+						"title": "Agribusiness",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Health",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Food & Beverage",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					}
+				]
+			},{
+				"id": "netherlands",
+				"name": "Netherlands",
+				"url": "http://www.nzte.govt.nz/en/export/export-markets/europe/netherlands",
+				"coordinates": {
+					"lat": 52.29,
+					"lon": 5.33
+				},
+				"articles": {
+					"marketResearch": 10,
+					"newsFeatures": 6,
+					"sectors": [
+						{
+							"name": "Agribusiness",
+							"marketResearch": 7,
+							"newsFeatures": 6
+						},
+						{
+							"name": "Aviation",
+							"marketResearch": 7,
+							"newsFeatures": 6
+						},
+						{
+							"name": "Food & Beverage",
+							"marketResearch": 7,
+							"newsFeatures": 6
+						}
+					]
+				},
+				"sectors": [
+					{
+						"title": "Agribusiness",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Health",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Food & Beverage",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					}
+				]
+			},{
+				"id": "russia",
+				"name": "Russia",
+				"url": "http://www.nzte.govt.nz/en/export/export-markets/europe/russia",
+				"coordinates": {
+					"lat": 56.21,
+					"lon": 32.64
+				},
+				"articles": {
+					"marketResearch": 2,
+					"newsFeatures": 3,
+					"sectors": [
+						{
+							"name": "Agribusiness",
+							"marketResearch": 7,
+							"newsFeatures": 6
+						},
+						{
+							"name": "Aviation",
+							"marketResearch": 7,
+							"newsFeatures": 6
+						},
+						{
+							"name": "Food & Beverage",
+							"marketResearch": 7,
+							"newsFeatures": 6
+						}
+					]
+				},
+				"sectors": [
+					{
+						"title": "Agribusiness",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Health",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Food & Beverage",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					}
+				]
+			},{
+				"id": "spain",
+				"name": "Spain",
+				"url": "http://www.nzte.govt.nz/en/export/export-markets/europe/spain",
+				"coordinates": {
+					"lat": 42,
+					"lon": -3.74
+				},
+				"articles": {
+					"marketResearch": 7,
+					"newsFeatures": 6,
+					"sectors": [
+						{
+							"name": "Agribusiness",
+							"marketResearch": 3,
+							"newsFeatures": 6
+						},
+						{
+							"name": "Aviation",
+							"marketResearch": 7,
+							"newsFeatures": 6
+						},
+						{
+							"name": "Food & Beverage",
+							"marketResearch": 7,
+							"newsFeatures": 6
+						}
+					]
+				},
+				"sectors": [
+					{
+						"title": "Agribusiness",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Health",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Food & Beverage",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					}
+				]
+			},{
+				"id": "switzerland",
+				"name": "Switzerland",
+				"url": "http://www.nzte.govt.nz/en/export/export-markets/europe/switzerland",
+				"coordinates": {
+					"lat": 46.81,
+					"lon": 8.00
+				},
+				"articles": {
+					"marketResearch": 7,
+					"newsFeatures": 6,
+					"sectors": [
+						{
+							"name": "Agribusiness",
+							"marketResearch": 7,
+							"newsFeatures": 6
+						},
+						{
+							"name": "Aviation",
+							"marketResearch": 7,
+							"newsFeatures": 6
+						},
+						{
+							"name": "Food & Beverage",
+							"marketResearch": 7,
+							"newsFeatures": 6
+						}
+					]
+				},
+				"sectors": [
+					{
+						"title": "Agribusiness",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Health",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Food & Beverage",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					}
+				]
+			},{
+				"id": "the-nordics",
+				"name": "The Nordics",
+				"url": "http://www.nzte.govt.nz/en/export/export-markets/europe/the-nordics",
+				"coordinates": {
+					"lat": 58.28,
+					"lon": 14.26
+				},
+				"articles": {
+					"marketResearch": 7,
+					"newsFeatures": 6,
+					"sectors": [
+						{
+							"name": "Agribusiness",
+							"marketResearch": 7,
+							"newsFeatures": 6
+						},
+						{
+							"name": "Aviation",
+							"marketResearch": 7,
+							"newsFeatures": 6
+						},
+						{
+							"name": "Food & Beverage",
+							"marketResearch": 7,
+							"newsFeatures": 6
+						}
+					]
+				},
+				"sectors": [
+					{
+						"title": "Agribusiness",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Health",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Food & Beverage",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					}
+				]
+			},{
+				"id": "turkey",
+				"name": "Turkey",
+				"url": "http://www.nzte.govt.nz/en/export/export-markets/europe/turkey",
+				"coordinates": {
+					"lat": 40,
+					"lon": 32.25
+				},
+				"articles": {
+					"marketResearch": 7,
+					"newsFeatures": 6,
+					"sectors": [
+						{
+							"name": "Agribusiness",
+							"marketResearch": 7,
+							"newsFeatures": 6
+						},
+						{
+							"name": "Aviation",
+							"marketResearch": 7,
+							"newsFeatures": 6
+						},
+						{
+							"name": "Food & Beverage",
+							"marketResearch": 7,
+							"newsFeatures": 6
+						}
+					]
+				},
+				"sectors": [
+					{
+						"title": "Agribusiness",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Health",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Food & Beverage",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					}
+				]
+			},{
+				"id": "united-kingdom",
+				"name": "United Kingdom",
+				"url": "http://www.nzte.govt.nz/en/export/export-markets/europe/united-kingdom",
+				"coordinates": {
+					"lat": 54.16,
+					"lon": -2.26
+				},
+				"articles": {
+					"marketResearch": 7,
+					"newsFeatures": 6,
+					"sectors": [
+						{
+							"name": "Agribusiness",
+							"marketResearch": 7,
+							"newsFeatures": 6
+						},
+						{
+							"name": "Aviation",
+							"marketResearch": 7,
+							"newsFeatures": 6
+						},
+						{
+							"name": "Food & Beverage",
+							"marketResearch": 7,
+							"newsFeatures": 6
+						}
+					]
+				},
+				"sectors": [
+					{
+						"title": "Agribusiness",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Health",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Food & Beverage",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					}
+				]
+			}
+		]
+	}, {
+		"id": "east-asia",
+		"name": "East Asia",
+		"coordinates": {
+			"lat": 33.94,
+			"lon": 107.4
+		},
+		"range": {
+			"rangeMax": 3,
+			"innerRadius": 1.5
+		},
+		"zoom": {
+			"level": 5.5,
+			"translateX": -1500,
+			"translateY": -700
+		},
+		"articles": {
+			"marketResearch": 25,
+			"newsFeatures": 7,
+			"sectors": [
+				{
+					"name": "Agribusiness",
+					"marketResearch": 7,
+					"newsFeatures": 4
+				},
+				{
+					"name": "Aviation",
+					"marketResearch": 10,
+					"newsFeatures": 2
+				},
+				{
+					"name": "Food & Beverage",
+					"marketResearch": 8,
+					"newsFeatures": 1
+				}
+			]
+		},
+		"mediaLinks": [
+			{
+				"title": "Kiwi company BIMStop secures investment to continue US expansion",
+				"url": "http://www.nzte.govt.nz/en/news-and-media/kiwi-company-bimstop-secures-investment-to-continue-us-expansion/"
+			},
+			{
+				"title": "New Zealand tech sector grows by 16.5 percent",
+				"url": "http://www.nzte.govt.nz/en/news-and-media/new-zealand-tech-sector-grows-by-165-percent/"
+			},
+			{
+				"title": "US overtakes UK as Second-Largest Export Market for New Zealand Wines",
+				"url": "http://www.nzte.govt.nz/en/news-and-media/us-overtakes-uk-as-second-largest-export-market-for-new-zealand-wines/"
+			},
+			{
+				"title": "Kiwi company Vend is “right up there with the coolest kids in Silicon Valley”",
+				"url": "http://www.nzte.govt.nz/en/news-and-media/kiwi-company-vend-is-“right-up-there-with-the-coolest-kids-in-silicon-valley”/"
+			},
+			{
+				"title": "New Zealand Accounting Firm Xero Expanding to Denver, CO",
+				"url": "http://www.nzte.govt.nz/en/news-and-media/new-zealand-accounting-firm-xero-expanding-to-denver-co/"
+			}
+		],
+		"countries": [
+			{
+				"id": "china",
+				"name": "China",
+				"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/canada/",
+				"coordinates": {
+					"lat": 33.94,
+					"lon": 107.4
+				},
+				"articles": {
+					"marketResearch": 15,
+					"newsFeatures": 12,
+					"sectors": [
+						{
+							"name": "Agribusiness",
+							"marketResearch": 2,
+							"newsFeatures": 4
+						},
+						{
+							"name": "High Value Manufacturing",
+							"marketResearch": 5,
+							"newsFeatures": 4
+						},
+						{
+							"name": "Biotechnology",
+							"marketResearch": 8,
+							"newsFeatures": 4
+						}
+					]
+				},
+				"sectors": [
+					{
+						"title": "Agribusiness",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Health",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Food & Beverage",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					}
+				]
+			}, {
+				"id": "taiwan",
+				"name": "Taiwan",
+				"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/canada/",
+				"coordinates": {
+					"lat": 23.60,
+					"lon": 120.80
+				},
+				"articles": {
+					"marketResearch": 15,
+					"newsFeatures": 12,
+					"sectors": [
+						{
+							"name": "Agribusiness",
+							"marketResearch": 2,
+							"newsFeatures": 4
+						},
+						{
+							"name": "High Value Manufacturing",
+							"marketResearch": 5,
+							"newsFeatures": 4
+						},
+						{
+							"name": "Biotechnology",
+							"marketResearch": 8,
+							"newsFeatures": 4
+						}
+					]
+				},
+				"sectors": [
+					{
+						"title": "Agribusiness",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Health",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Food & Beverage",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					}
+				]
+			}, {
+				"id": "hong-kong",
+				"name": "Hong Kong",
+				"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/canada/",
+				"coordinates": {
+					"lat": 22.39,
+					"lon": 114.10
+				},
+				"articles": {
+					"marketResearch": 15,
+					"newsFeatures": 12,
+					"sectors": [
+						{
+							"name": "Agribusiness",
+							"marketResearch": 2,
+							"newsFeatures": 4
+						},
+						{
+							"name": "High Value Manufacturing",
+							"marketResearch": 5,
+							"newsFeatures": 4
+						},
+						{
+							"name": "Biotechnology",
+							"marketResearch": 8,
+							"newsFeatures": 4
+						}
+					]
+				},
+				"sectors": [
+					{
+						"title": "Agribusiness",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Health",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Food & Beverage",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					}
+				]
+			}
+		]
+	}, {
+		"id": "greater-china",
+		"name": "Greater China",
+		"coordinates": {
+			"lat": 33.94,
+			"lon": 107.4
+		},
+		"range": {
+			"rangeMax": 5,
+			"innerRadius": 2
+		},
+		"zoom": {
+			"level": 5.5,
+			"translateX": -1500,
+			"translateY": -700
+		},
+		"articles": {
+			"marketResearch": 25,
+			"newsFeatures": 7,
+			"sectors": [
+				{
+					"name": "Agribusiness",
+					"marketResearch": 7,
+					"newsFeatures": 4
+				},
+				{
+					"name": "Aviation",
+					"marketResearch": 10,
+					"newsFeatures": 2
+				},
+				{
+					"name": "Food & Beverage",
+					"marketResearch": 8,
+					"newsFeatures": 1
+				}
+			]
+		},
+		"mediaLinks": [
+			{
+				"title": "Kiwi company BIMStop secures investment to continue US expansion",
+				"url": "http://www.nzte.govt.nz/en/news-and-media/kiwi-company-bimstop-secures-investment-to-continue-us-expansion/"
+			},
+			{
+				"title": "New Zealand tech sector grows by 16.5 percent",
+				"url": "http://www.nzte.govt.nz/en/news-and-media/new-zealand-tech-sector-grows-by-165-percent/"
+			},
+			{
+				"title": "US overtakes UK as Second-Largest Export Market for New Zealand Wines",
+				"url": "http://www.nzte.govt.nz/en/news-and-media/us-overtakes-uk-as-second-largest-export-market-for-new-zealand-wines/"
+			},
+			{
+				"title": "Kiwi company Vend is “right up there with the coolest kids in Silicon Valley”",
+				"url": "http://www.nzte.govt.nz/en/news-and-media/kiwi-company-vend-is-“right-up-there-with-the-coolest-kids-in-silicon-valley”/"
+			},
+			{
+				"title": "New Zealand Accounting Firm Xero Expanding to Denver, CO",
+				"url": "http://www.nzte.govt.nz/en/news-and-media/new-zealand-accounting-firm-xero-expanding-to-denver-co/"
+			}
+		],
+		"countries": [
+			{
+				"id": "china",
+				"name": "China",
+				"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/canada/",
+				"coordinates": {
+					"lat": 33.94,
+					"lon": 107.4
+				},
+				"articles": {
+					"marketResearch": 15,
+					"newsFeatures": 12,
+					"sectors": [
+						{
+							"name": "Agribusiness",
+							"marketResearch": 2,
+							"newsFeatures": 4
+						},
+						{
+							"name": "High Value Manufacturing",
+							"marketResearch": 5,
+							"newsFeatures": 4
+						},
+						{
+							"name": "Biotechnology",
+							"marketResearch": 8,
+							"newsFeatures": 4
+						}
+					]
+				},
+				"sectors": [
+					{
+						"title": "Agribusiness",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Health",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Food & Beverage",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					}
+				]
+			}, {
+				"id": "taiwan",
+				"name": "Taiwan",
+				"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/canada/",
+				"coordinates": {
+					"lat": 23.60,
+					"lon": 120.80
+				},
+				"articles": {
+					"marketResearch": 15,
+					"newsFeatures": 12,
+					"sectors": [
+						{
+							"name": "Agribusiness",
+							"marketResearch": 2,
+							"newsFeatures": 4
+						},
+						{
+							"name": "High Value Manufacturing",
+							"marketResearch": 5,
+							"newsFeatures": 4
+						},
+						{
+							"name": "Biotechnology",
+							"marketResearch": 8,
+							"newsFeatures": 4
+						}
+					]
+				},
+				"sectors": [
+					{
+						"title": "Agribusiness",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Health",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Food & Beverage",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					}
+				]
+			}, {
+				"id": "hong-kong",
+				"name": "Hong Kong",
+				"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/canada/",
+				"coordinates": {
+					"lat": 22.39,
+					"lon": 114.10
+				},
+				"articles": {
+					"marketResearch": 15,
+					"newsFeatures": 12,
+					"sectors": [
+						{
+							"name": "Agribusiness",
+							"marketResearch": 2,
+							"newsFeatures": 4
+						},
+						{
+							"name": "High Value Manufacturing",
+							"marketResearch": 5,
+							"newsFeatures": 4
+						},
+						{
+							"name": "Biotechnology",
+							"marketResearch": 8,
+							"newsFeatures": 4
+						}
+					]
+				},
+				"sectors": [
+					{
+						"title": "Agribusiness",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Health",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					},
+					{
+						"title": "Food & Beverage",
+						"url": "http://www.nzte.govt.nz/en/export/export-markets/north-america/mexico/"
+					}
+				]
+			}
+		]
+	}
+]
+
+
