@@ -1,5 +1,5 @@
 requirejs.config( {
-	baseUrl: '/assets/scripts/src/lib',
+	baseUrl: '/original/assets/scripts/src/lib',
 	paths: {
 		implementations: 'requirejs-plugins/amd-feature/dynamic',
 		feature: 'requirejs-plugins/feature',
