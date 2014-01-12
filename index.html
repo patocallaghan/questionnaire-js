@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html class="js no-touch boxshadow opacity csstransforms csstransforms3d csstransitions fontface svg wf-opensans-n4-active wf-opensans-n7-active wf-active svgbackground" lang="en" style="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Export Ready Questionnaire | New Zealand Trade and Enterprise</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Pat O'Callaghan"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script>
+		WebFontConfig = {
+			google: { families: ['Open+Sans:400,700:latin,latin-ext'] }
+		};
+		(function() {
+			var wf = document.createElement('script');
+			wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+			'://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+			wf.type = 'text/javascript';
+			wf.async = 'true';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(wf, s);
+		})();
+	</script>
+	<link rel="stylesheet" href="/assets/css/style.css">
+	<!-- <script src="/assets/scripts/src/lib/require.js"></script> -->
+	<script src="/assets/scripts/src/lib/modernizr.dev.custom.js"></script>
+</head>
+<body class="questionnairepage " ng-app="QuestionnaireApp">
+	<div class="content wrapper full-width">
+		<div class="main" role="main" id="main-content" ng-controller="SessionCtrl">
+			<div class="questionnaire-aside" ng-controller="MenuCtrl">
+				<div class="questionnaire-introduction" id="js-questionnaire-introduction" ng-show="menu.isStartShown()">
+					<h2>Welcome to our Export-Ready Questionnaire</h2>
+					<p>We’ve put together a few simple questions to help you (and us) understand where you are on your export journey, and how we can help you reach your goals.</p>
+					<p>Along the way, we’ll point you in the direction of any relevant articles and resources on our website.</p>
+					<p>If you wish to be contacted by someone from our customer team at the end of this survey, an email summary of the information you’ve provided will be sent to our team. Please be assured that any information you provide here will be kept confidential, and used only by NZTE for contacting you and the possible provision of services to you and your organisation.</p>			
+				</div>
+				<div class="questionnaire-status" ng-show="menu.isMenuShown()" id="js-questionnaire-status">
+					<div class="questionnaire-status-heading">
+						<h2 class="questionnaire-status-heading-name">Export Ready Questionnaire</h2>
+					</div>
+					<ol class="questionnaire-status-stage-list list-stacked">
+
+						<li class="questionnaire-status-stage js-questionnaire-status-stage has-child-steps " ng:class="menu.setStateClasses('1')" data-step="">
+						<strong class="questionnaire-status-placement">1</strong>
+						<a href="#/questionnaire/1a">
+							<span class="questionnaire-status-name js-questionnaire-status-name">What's putting your business in a great position to grow internationally?</span>
+					</a>
+						<ol class="questionnaire-status-section-list list-stacked">
+							<li class="questionnaire-status-section js-menu-step" data-step="1a" ng:class="menu.setStateClasses('1a')">
+							Competitive advantage
+							</li>
+							<li class="questionnaire-status-section js-menu-step" data-step="1b" ng:class="menu.setStateClasses('1b')">
+							Market validation
+							</li>
+						</ol>
+						</li>
+						<li class="questionnaire-status-stage js-questionnaire-status-stage js-menu-step " ng:class="menu.setStateClasses( '2' )" data-step="2">
+						<strong class="questionnaire-status-placement">2</strong>
+							<a href="#/questionnaire/1a">
+								<span class="questionnaire-status-name js-questionnaire-status-name">International growth - ambition &amp; potential</span>
+							</a>
+						</li>
+
+						<li class="questionnaire-status-stage js-questionnaire-status-stage js-menu-step " ng:class="menu.setStateClasses( '3' )" data-step="3" >
+						<strong class="questionnaire-status-placement">3</strong>
+						<span class="questionnaire-status-name js-questionnaire-status-name">Would you like to be contacted by one of our customer team?</span>
+						</li>
+
+						<li class="questionnaire-status-stage js-questionnaire-status-stage questionnaire-status-summary js-menu-step" data-step="end">
+						<span class="questionnaire-status-name js-questionnaire-status-name">Summary</span>
+						</li>
+					</ol>
+				</div>
+			</div>
+			<div class="questionnaire-main" ng-view ng-controller="QuestionnaireCtrl">
+			</div>
+		</div>
+	</div>
+<script type="text/template" id="js-summary-instructions">
+<div data-questionnaire-contact="{{ContactApproved}}"><p>Thanks for completing our questionnaire. You've told us what you need help with and we'll be in touch to discuss this further over the next seven working days. If you have any urgent enquiries, please call us on 0800 555 888.</p>
+<p>Below is a summary of your responses, which we will email to you. If you prefer, you can print it now.</p></div>
+	<div data-questionnaire-contact="{{ContactDisapproved}}"><p>Thanks for completing our questionnaire.</p>
+<p>Below is a summary of your responses. You can print this summary now or we can email it to you for future reference.</p></div>
+</script>
+<script type="text/template" id="js-summary-readiness">
+<dl class="questionnaire-summary-overall-status list-stacked" data-status-ready="{{ReadyState}}">
+		<dt class="is-ready-{{ReadyState}}">
+			<span class="icof-circle-minus false" aria-hidden="true"></span>
+			<span class="icof-circle-tick true" aria-hidden="true"></span>
+			<span class="visuallyhidden">{{ReadyText}}</span>
+		</dt>
+		<dd>{{ReadyDescription}}</dd>
+	</dl>
+
+</script>
+<script type="text/template" id="js-summary-details">
+<li>
+	<div class="questionnaire-summary-stage-heading">
+		<strong class="questionnaire-summary-stage-heading-placement">{{ContactStageNumber}}</strong>
+		<h3 class="questionnaire-summary-stage-heading-name">Would you like to be contacted by one of our customer services team?</h3>
+	</div>
+	{{#CompletedForm}}
+	<div class="questionnaire-summary-section-heading">
+		<h4 class="questionnaire-summary-section-heading-name">Your details:</h4>
+	</div>
+	<dl class="questionnaire-summary-section-details list-stacked">
+		<dt class="visuallyhidden">First name</dt>
+		<dd>{{FirstName}}</dd>
+		<dt class="visuallyhidden">Last name</dt>
+		<dd>{{LastName}}</dd>
+		<dt class="visuallyhidden">Job title</dt>
+		<dd>{{JobTitle}}</dd>
+		<dt class="visuallyhidden">Company</dt>
+		<dd>{{CompanyName}}</dd>
+		<dt class="visuallyhidden">Email</dt>
+		<dd>{{Email}}</dd>
+		<dt class="visuallyhidden">Phone number</dt>
+		<dd>{{PhoneNumber}}</dd>
+		<dt class="visuallyhidden">Company website</dt>
+		<dd>{{CompanyWebsite}}</dd>
+		<dt class="visuallyhidden">Feedback</dt>
+		<dd>{{Feedback}}</dd>
+	</dl>
+	{{/CompletedForm}}
+	{{^CompletedForm}}
+	<p>You don't wish to be contacted at this stage. That's fine, we can still help you. You might like to contact one of your local regional business partners.</p>
+<p>You can start here: <a href="http://www.nzte.govt.nz" target="_blank">www.nzte.govt.nz</a></p>
+	{{/CompletedForm}}
+</li>
+</script>
+<script type="text/template" id="js-summary-stage-item">
+<li>
+	<div class="questionnaire-summary-stage-heading">
+		<strong class="questionnaire-summary-stage-heading-placement">{{Stage}}</strong>
+		<h3 class="questionnaire-summary-stage-heading-name">{{Name}}</h3>
+	</div>
+	<ol class="questionnaire-summary-section-listing js-questionnaire-summary-listing list-stacked">
+	{{#LineItems}}
+		<li>
+			<div class="questionnaire-summary-section-heading">
+				<h4 class="questionnaire-summary-section-heading-name">{{Name}}</h4>
+				<strong class="questionnaire-summary-section-heading-status icof-circle-{{ReadyIcon}}">
+					<span class="visuallyhidden">{{ReadyText}}</span>
+				</strong>
+			</div>
+			{{#hasFinancialData}}
+			<div class="questionnaire-summary-section-info">
+				<div class="listing-financial listing-financial-display">
+					<ul class="listing-financial-listing list-stacked clearfix">
+						{{#FinancialData}}
+						<li>
+							<strong class="listing-financial-title">{{Title}}</strong>
+							<ul class="listing-financial-group list-stacked">
+								<li class="clearfix">
+									<label class="listing-financial-label">{{Label0}}</label>
+									<div class="listing-financial-amount">
+										<input readonly="" class="listing-financial-amount-input" type="string" value="{{Value0}}">
+									</div>
+								</li>
+								<li class="clearfix">
+									<label class="listing-financial-label">{{Label1}}</label>
+									<div class="listing-financial-amount">
+					<input readonly="" class="listing-financial-amount-input" type="string" value="{{Value1}}">
+									</div>
+								</li>
+							</ul>
+						</li>
+						{{/FinancialData}}
+					</ul>
+				</div>
+			</div>
+			{{/hasFinancialData}}
+	    <p>{{RelatedLinksText}}</p>
+			<ul class="questionnaire-summary-section-links list-stacked">
+			{{#RelatedLinks}}
+				<li>
+					<a href="{{url}}" target="_blank" rel="external">{{title}}</a>
+				</li>
+			{{/RelatedLinks}}
+			</ul>
+		</li>
+	{{/LineItems}}
+	</ol>
+</li>	
+</script>
+<script type="text/template" id="js-summary-email-address">
+{{^CompletedForm}}
+<fieldset class="questionnaire-summary-email js-questionnaire-summary-email">
+	<legend class="visuallyhidden">Summary Email</legend>
+	<p>If you'd like this summary to be emailed to you, fill out your email address below.</p>
+	<ul class="list-inline-block">
+		<li class="questionnaire-input">
+			<label class="label form-mandatory" for="summary-email">Email address:</label>
+			<input class="input js-summary-email has-pattern" type="email" id="summary-email" required />
+			<div class="input-error-container js-error is-hidden">
+				<span class="input-error">Must be a valid email address</span>
+			</div>
+		</li>
+		<li class="questionnaire-btn">
+			<input type="submit" class="btn-default btn-inline js-submit-email" value="Send" />
+		</li>
+	</ul>
+	<div class="form-confirmation js-form-confirmation is-hidden">
+		<span class="js-form-confirmation__text">This summary has been submitted to your email address.</span>
+	</div>
+</fieldset>
+{{/CompletedForm}}
+</script>
+<!-- <script> -->
+<!-- 	require( ['/assets/scripts/src/common.js'], function ( common ) { -->
+<!-- 		require( ['app/page/all'] ); -->
+<!-- 	} ); -->
+<!-- </script> -->
+<script src="/assets/scripts/lib/angular.js"></script>
+<script src="/assets/scripts/lib/angular-route.js"></script>
+<script src="/assets/scripts/main.js"></script>
+</body>
+</html>
+
