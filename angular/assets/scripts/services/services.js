@@ -1,19 +1,3 @@
-var QuestionnaireApp = angular.module('QuestionnaireApp', ['ngRoute']).
-    config(['$routeProvider', function($routeProvider) {
-      $routeProvider
-        .when('/', {
-          templateUrl: '/templates/start.html'
-        })
-        .when('/questionnaire/:questionNumber', {
-          templateUrl: '/templates/questionnaire.html',
-          controller: 'QuestionnaireCtrl'
-        })
-        .when('/summary', {
-          templateUrl: '/templates/summary.html'
-        });
-}]);
-
-
 QuestionnaireApp.factory('Session', function( $routeParams ){
 
   var maxStep ='0';
@@ -77,20 +61,4 @@ QuestionnaireApp.factory('Menu', function( $routeParams, Session ){
   };
 });
 
-QuestionnaireApp.controller('QuestionnaireCtrl', function ($scope, Data) {
 
-  $scope.data = Data;
-
-});
-
-QuestionnaireApp.controller('MenuCtrl', function ($scope, Menu) {
-
-  $scope.menu = Menu;
-
-});
-
-QuestionnaireApp.controller('SessionCtrl', function ($scope, Session) {
-
-  $scope.session = Session;
-
-});
